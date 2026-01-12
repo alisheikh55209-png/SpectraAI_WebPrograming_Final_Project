@@ -64,7 +64,7 @@ h6 {
 }
 
 body:not(.no-padding-top) {
-    padding-top: 100px;
+    padding-top: 100px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1929,15 +1929,98 @@ img {
     .row.align-items-center {
         min-height: 90vh !important;
     }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+
+    .highlight-card {
+        padding: 2rem;
+    }
+
+    .service-card {
+        padding: 2rem;
+    }
+
+    .testimonial-card {
+        padding: 2rem;
+        margin: 0.5rem;
+    }
+
+    .contact-form {
+        padding: 2.5rem;
+    }
+
+    .discover-content {
+        padding-left: 20px;
+    }
+
+    .discover-overlay-card {
+        bottom: 60px;
+        left: -20px;
+        padding: 20px;
+    }
+
+    .services-panel-content {
+        padding: 40px 30px;
+    }
+
+    .services-cards-container {
+        padding: 40px 0;
+    }
+
+    .services-cards-container .row.g-4.p-5 {
+        padding: 20px !important;
+    }
+
+    .who-sidebar {
+        padding: 40px 30px;
+    }
+
+    .stats-section-new {
+        padding: 80px 0;
+        min-height: 600px;
+    }
+
+    .stat-circle {
+        width: 180px;
+        height: 180px;
+        padding: 15px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+    }
+
+    .testimonials-sidebar {
+        padding: 20px;
+    }
+
+    .testimonial-card-new {
+        padding: 20px;
+    }
+
+    .footer-new {
+        padding: 60px 0 0;
+    }
 }
 
 @media (max-width: 768px) {
     .hero-main-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        line-height: 0.9;
     }
 
     .hero-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .hero-section {
@@ -1948,15 +2031,446 @@ img {
     .row.align-items-center {
         min-height: 85vh !important;
     }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .btn-call-now,
+    .btn-get-quote {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .section {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        margin-bottom: 2rem;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+    }
+
+    .highlight-card {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .highlight-card .icon {
+        font-size: 2.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .highlight-card h4 {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .service-card img {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .service-card h4 {
+        font-size: 1.2rem;
+    }
+
+    .testimonial-card {
+        padding: 1.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .testimonial-author {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .discover-section .row.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .discover-image-wrapper {
+        order: 2;
+        margin-top: 2rem;
+    }
+
+    .discover-content {
+        order: 1;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .discover-title {
+        font-size: 2.5rem;
+    }
+
+    .discover-description {
+        font-size: 1rem;
+    }
+
+    .discover-benefits {
+        text-align: left;
+    }
+
+    .discover-overlay-card {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-top: 2rem;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .discover-social-icons {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2rem;
+        gap: 15px;
+    }
+
+    .services-section .row.g-0 {
+        flex-direction: column;
+    }
+
+    .services-left-panel {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .services-title {
+        font-size: 2.2rem;
+    }
+
+    .services-description {
+        font-size: 1rem;
+    }
+
+    .services-cards-container {
+        padding: 40px 20px;
+    }
+
+    .services-cards-container .row.g-4.p-5 {
+        padding: 0 !important;
+    }
+
+    .service-card-new {
+        padding: 25px;
+        min-height: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .service-icon-new {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .service-card-new h4 {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+
+    .service-card-new p {
+        font-size: 0.95rem;
+        margin-bottom: 15px;
+    }
+
+    .who-are-we-section .row {
+        flex-direction: column;
+    }
+
+    .who-title {
+        font-size: 2.8rem;
+    }
+
+    .who-description {
+        font-size: 1.1rem;
+    }
+
+    .who-tabs {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .who-tab {
+        padding: 10px 25px;
+        font-size: 0.95rem;
+    }
+
+    .who-sidebar {
+        padding: 40px 20px;
+        margin-top: 2rem;
+    }
+
+    .who-sidebar-title {
+        font-size: 2rem;
+    }
+
+    .portfolio-section {
+        padding: 60px 0;
+    }
+
+    .portfolio-main-title {
+        font-size: 2.5rem;
+    }
+
+    .portfolio-filter {
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .filter-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .portfolio-item {
+        min-height: 350px;
+    }
+
+    .portfolio-overlay-content h4 {
+        font-size: 1.5rem;
+    }
+
+    .portfolio-overlay-content p {
+        font-size: 0.9rem;
+    }
+
+    .stats-section-new {
+        padding: 60px 0;
+        min-height: 500px;
+    }
+
+    .stat-circle {
+        width: 160px;
+        height: 160px;
+        padding: 12px;
+        margin: 0 auto 2rem;
+    }
+
+    .stat-number {
+        font-size: 1.8rem;
+    }
+
+    .stat-label {
+        font-size: 0.85rem;
+    }
+
+    .stats-portfolio-title {
+        font-size: 2.2rem;
+    }
+
+    .testimonials-section {
+        padding: 60px 0;
+    }
+
+    .testimonials-main-title {
+        font-size: 2.5rem;
+    }
+
+    .testimonials-grid .row.g-4 {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 1rem;
+    }
+
+    .testimonial-card-new {
+        padding: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .testimonial-profile {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .testimonial-name-info h6 {
+        font-size: 1rem;
+    }
+
+    .testimonial-name-info p {
+        font-size: 0.8rem;
+    }
+
+    .testimonial-text-new {
+        font-size: 0.9rem;
+    }
+
+    .testimonials-pagination {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .pagination-indicator {
+        font-size: 0.9rem;
+    }
+
+    .cta-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+    }
+
+    .footer-new {
+        padding: 40px 0 0;
+    }
+
+    .footer-heading {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+
+    .footer-social-icons {
+        gap: 8px;
+    }
+
+    .logo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .logo-container {
+        height: 50px;
+    }
+
+    .logo-item {
+        height: 50px;
+    }
+
+    .footer-bottom-new {
+        padding: 15px 0;
+    }
+
+    .top-header-bar {
+        padding: 8px 0;
+    }
+
+    .top-header-link,
+    .top-header-text {
+        font-size: 0.85rem;
+    }
+
+    /* Mobile responsiveness for top header bar */
+    .top-header-bar .row {
+        flex-direction: column; 
+        gap: 8px; 
+        text-align: center;
+    }
+
+    .top-header-bar .col-md-4 {
+        flex: none; 
+        width: 100%; 
+        text-align: center !important; 
+    }
+
+    .top-header-bar .col-md-4:first-child,
+    .top-header-bar .col-md-4:nth-child(2) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+        padding-bottom: 8px;
+    }
+
+    .top-header-bar .col-md-4:last-child {
+        padding-top: 8px; 
+    }
+
+    .top-header-social {
+        margin: 0 8px; 
+    }
+
+    /* Adjust body padding for mobile to account for fixed header and navbar positioning */
+    body:not(.no-padding-top) {
+        padding-top: 100px !important; 
+    }
+
+    /* Navbar mobile adjustments */
+    .navbar {
+        padding: 0.5rem 0 !important;
+        min-height: 60px !important;
+        top: 32px !important; 
+    }
+
+    .navbar-brand img {
+        height: 35px !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.4rem 0.8rem !important;
+        font-size: 0.85rem;
+        margin: 0 0.1rem;
+    }
+
+    .btn-primary-custom {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    /* Collapse navbar on mobile */
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.98);
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        padding: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .navbar-toggler {
+        border: 1px solid rgba(14, 107, 99, 0.3) !important;
+        padding: 0.25rem 0.5rem !important;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.2rem rgba(14, 107, 99, 0.25) !important;
+    }
 }
 
 @media (max-width: 576px) {
     .hero-main-title {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
+        line-height: 0.9;
     }
 
     .hero-subtitle {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .hero-section {
@@ -1967,7 +2481,7 @@ img {
     .row.align-items-center {
         min-height: 80vh !important;
     }
-    
+
     .hero-social-icons {
         position: relative;
         left: auto;
@@ -1978,20 +2492,308 @@ img {
         margin-bottom: 30px;
         gap: 15px;
     }
-    
+
     .hero-graphic {
-        height: 400px;
-        margin-top: 40px;
+        height: 350px;
+        margin-top: 30px;
     }
-    
+
+    .tech-visual {
+        transform: scale(1);
+    }
+
     .card-1 {
-        width: 180px;
-        height: 250px;
-    }
-    
-    .card-2 {
-        width: 160px;
+        width: 150px;
         height: 200px;
+    }
+
+    .card-2 {
+        width: 130px;
+        height: 160px;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+
+    .section-title p {
+        font-size: 0.95rem;
+    }
+
+    .highlight-card {
+        padding: 1.2rem;
+    }
+
+    .highlight-card .icon {
+        font-size: 2rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+
+    .highlight-card h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .highlight-card p {
+        font-size: 0.9rem;
+    }
+
+    .service-card {
+        padding: 1.2rem;
+    }
+
+    .service-card img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .service-card h4 {
+        font-size: 1.1rem;
+    }
+
+    .service-card p {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-card {
+        padding: 1.2rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
+    }
+
+    .form-control {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    .btn-submit {
+        padding: 10px 30px;
+        font-size: 0.9rem;
+    }
+
+    .discover-title {
+        font-size: 2.2rem;
+    }
+
+    .discover-description {
+        font-size: 0.95rem;
+    }
+
+    .discover-benefits {
+        margin-bottom: 25px;
+    }
+
+    .benefit-item {
+        font-size: 0.95rem;
+    }
+
+    .btn-read-more {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
+
+    .services-left-panel {
+        padding: 30px 15px;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .services-description {
+        font-size: 0.95rem;
+    }
+
+    .services-cards-container {
+        padding: 30px 15px;
+    }
+
+    .service-card-new {
+        padding: 20px;
+    }
+
+    .service-icon-new {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .service-card-new h4 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+
+    .service-card-new p {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+    }
+
+    .service-read-more {
+        font-size: 0.9rem;
+    }
+
+    .who-title {
+        font-size: 2.5rem;
+    }
+
+    .who-description {
+        font-size: 1rem;
+    }
+
+    .who-tab {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    .who-sidebar {
+        padding: 30px 15px;
+    }
+
+    .who-sidebar-title {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-main-title {
+        font-size: 2.2rem;
+    }
+
+    .portfolio-item {
+        min-height: 300px;
+    }
+
+    .portfolio-overlay-content h4 {
+        font-size: 1.3rem;
+    }
+
+    .portfolio-overlay-content p {
+        font-size: 0.85rem;
+    }
+
+    .stats-section-new {
+        padding: 50px 0;
+        min-height: 450px;
+    }
+
+    .stat-circle {
+        width: 140px;
+        height: 140px;
+        padding: 10px;
+    }
+
+    .stat-number {
+        font-size: 1.6rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .stats-portfolio-title {
+        font-size: 2rem;
+    }
+
+    .testimonials-main-title {
+        font-size: 2.2rem;
+    }
+
+    .testimonial-card-new {
+        padding: 15px;
+    }
+
+    .testimonial-stars-new {
+        font-size: 1rem;
+    }
+
+    .testimonial-text-new {
+        font-size: 0.85rem;
+    }
+
+    .btn-review-google {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .cta-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta-section p {
+        font-size: 0.95rem;
+    }
+
+    .btn-primary-custom {
+        padding: 12px 30px;
+        font-size: 0.95rem;
+    }
+
+    .footer-new {
+        padding: 30px 0 0;
+    }
+
+    .footer-logo-section h5 {
+        font-size: 1.1rem;
+    }
+
+    .footer-links a {
+        font-size: 0.9rem;
+    }
+
+    .footer-social-icons a {
+        width: 35px;
+        height: 35px;
+        font-size: 1.1rem;
+    }
+
+    .logo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .logo-container {
+        height: 40px;
+    }
+
+    .logo-item {
+        height: 40px;
+    }
+
+    .footer-bottom-new p {
+        font-size: 0.85rem;
+    }
+
+    .top-header-bar {
+        padding: 6px 0;
+    }
+
+    .top-header-link,
+    .top-header-text {
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.4rem 0.8rem !important;
+        font-size: 0.85rem;
+    }
+
+    .btn-primary-custom {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .btn-call-now,
+    .btn-get-quote {
+        padding: 10px 25px;
+        font-size: 0.85rem;
     }
 }
 
@@ -3256,14 +4058,16 @@ img {
 
 /* ===== Top Header Bar ===== */
 .top-header-bar {
-    background: var(--deep-teal);
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1030;
-    color: white;
+    background: var(--deep-teal); 
+    padding: 10px 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    color: white; 
+    height: 40px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
 }
 
 .top-header-link {
