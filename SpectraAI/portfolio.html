@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - SpectraAI Agency</title>
+    <meta name="description" content="View our portfolio of successful projects in AI automation, web development, and branding.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo-new.svg">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Top Header Bar -->
+    <div class="top-header-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <a href="tel:+18482062002" class="top-header-link">
+                        <i class="bi bi-telephone"></i> +92 329 7939147
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="mailto:info@spectraai.com" class="top-header-link">
+                        <i class="bi bi-envelope"></i> info@spectraai.com
+                    </a>
+                </div>
+                <div class="col-md-4 text-end">
+                    <span class="top-header-text">Follow us:</span>
+                    <a href="#" class="top-header-social"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="top-header-social"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="top-header-social"><i class="bi bi-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="top: 40px;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo-new.svg" alt="SpectraAI Logo" style="height: 55px; margin-right: 10px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-search search-icon"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-section" style="min-height: 60vh; padding: 140px 0 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="discover-label" style="color: rgba(255,255,255,0.9);">OUR PORTFOLIO</p>
+                    <h1 class="discover-title" style="color: var(--pure-white); font-size: 3.5rem; margin-bottom: 1rem;">Check Our Amazing Work We Have Done</h1>
+                    <div class="discover-underline" style="margin: 0 auto 2rem;"></div>
+                    <p class="subtitle" style="color: rgba(255,255,255,0.95); font-size: 1.3rem;">Showcasing Our Best Work and Successful Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section" style="padding: 80px 0;">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>Our Portfolio</h2>
+                <p>Explore our successful projects and creative solutions</p>
+            </div>
+            <div class="portfolio-filter mb-5">
+                <button class="filter-btn active hover-lift" data-filter="all">
+                    <i class="bi bi-grid-3x3-gap me-2"></i>All Projects
+                </button>
+                <button class="filter-btn hover-lift" data-filter="web">
+                    <i class="bi bi-code-slash me-2"></i>Web Development
+                </button>
+                <button class="filter-btn hover-lift" data-filter="ai">
+                    <i class="bi bi-robot me-2"></i>AI Solutions
+                </button>
+                <button class="filter-btn hover-lift" data-filter="branding">
+                    <i class="bi bi-palette me-2"></i>Branding
+                </button>
+            </div>
+            <div class="row g-4 mb-4" id="portfolioGrid" style="min-height: auto;">
+                <div class="col-md-4 portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="E-Commerce Platform">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>E-Commerce Platform</h4>
+                            <p>Modern web development with advanced features</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">React</span>
+                                <span class="badge bg-light text-dark me-2">Node.js</span>
+                                <span class="badge bg-light text-dark">MongoDB</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="ai">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop" alt="AI Chatbot System">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>AI Chatbot System</h4>
+                            <p>Intelligent customer service automation</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Python</span>
+                                <span class="badge bg-light text-dark me-2">TensorFlow</span>
+                                <span class="badge bg-light text-dark">NLP</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop" alt="Brand Identity Design">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Brand Identity Design</h4>
+                            <p>Complete rebranding for tech startup</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Logo Design</span>
+                                <span class="badge bg-light text-dark me-2">Branding</span>
+                                <span class="badge bg-light text-dark">UI/UX</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop" alt="Corporate Website">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Corporate Website</h4>
+                            <p>Responsive design with modern UI/UX</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">HTML5</span>
+                                <span class="badge bg-light text-dark me-2">CSS3</span>
+                                <span class="badge bg-light text-dark">JavaScript</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="ai">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Machine Learning Platform">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Machine Learning Platform</h4>
+                            <p>Data analytics and prediction system</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">ML</span>
+                                <span class="badge bg-light text-dark me-2">Data Science</span>
+                                <span class="badge bg-light text-dark">Analytics</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop" alt="Logo & Visual Identity">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Logo & Visual Identity</h4>
+                            <p>Complete brand development package</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Branding</span>
+                                <span class="badge bg-light text-dark me-2">Design</span>
+                                <span class="badge bg-light text-dark">Identity</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Web Application">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Web Application</h4>
+                            <p>Custom SaaS platform development</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Vue.js</span>
+                                <span class="badge bg-light text-dark me-2">API</span>
+                                <span class="badge bg-light text-dark">Cloud</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="ai">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop" alt="AI Analytics Dashboard">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>AI Analytics Dashboard</h4>
+                            <p>Real-time business intelligence solution</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Dashboard</span>
+                                <span class="badge bg-light text-dark me-2">AI</span>
+                                <span class="badge bg-light text-dark">BI</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&h=400&fit=crop" alt="Marketing Materials">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Marketing Materials</h4>
+                            <p>Complete brand collateral design</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Print</span>
+                                <span class="badge bg-light text-dark me-2">Digital</span>
+                                <span class="badge bg-light text-dark">Branding</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop" alt="Mobile App">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Mobile Application</h4>
+                            <p>Cross-platform mobile app development</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">React Native</span>
+                                <span class="badge bg-light text-dark me-2">iOS</span>
+                                <span class="badge bg-light text-dark">Android</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="ai">
+                    <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&h=400&fit=crop" alt="AI Automation">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>AI Automation System</h4>
+                            <p>Workflow automation with AI intelligence</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Automation</span>
+                                <span class="badge bg-light text-dark me-2">AI</span>
+                                <span class="badge bg-light text-dark">RPA</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop" alt="Packaging Design">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-overlay-content">
+                            <h4>Packaging Design</h4>
+                            <p>Creative packaging and product design</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-2">Packaging</span>
+                                <span class="badge bg-light text-dark me-2">Design</span>
+                                <span class="badge bg-light text-dark">Creative</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-custom mt-3" style="border-color: white; color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Stats -->
+    <section class="stats-section-new">
+        <div class="stats-background"></div>
+        <div class="stats-overlay-pattern"></div>
+        <div class="container">
+            <div class="row g-4 justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="stat-circle stat-teal reveal-scale" style="opacity: 1 !important; transform: scale(1) !important;">
+
+                        <div class="stat-number" data-target="2100" data-suffix="+">0+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="stat-circle stat-orange reveal-scale" style="opacity: 1 !important; transform: scale(1) !important;">
+
+                        <div class="stat-number" data-target="1300" data-suffix="+">0+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="stat-circle stat-teal reveal-scale" style="opacity: 1 !important; transform: scale(1) !important;">
+
+                        <div class="stat-number" data-target="70" data-suffix="+">0+</div>
+                        <div class="stat-label">Team Members</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="stat-circle stat-orange reveal-scale" style="opacity: 1 !important; transform: scale(1) !important;">
+
+                        <div class="stat-number" data-target="98" data-suffix="%">0%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have a Project in Mind?</h2>
+            <p>Let's work together to bring your vision to life with our expertise and creativity.</p>
+            <a href="contact.html" class="btn btn-primary-custom">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-new">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-logo-section">
+                        <img src="assets/images/logo-new.svg" alt="SpectraAI Logo" style="height: 65px; margin-bottom: 15px; filter: brightness(0) invert(1);">
+                        <h5 style="color: white; margin-bottom: 15px;">SpectraAI Agency</h5>
+                        <p style="color: rgba(255,255,255,0.8); line-height: 1.8;">At SpectraAI Agency our aim is to assist the small and medium-sized businesses to grow online. SpectraAI is a world-class digital marketing agency in USA with over 15 years of experience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-heading">Quick Link</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="bi bi-circle-fill"></i> Home</a></li>
+                        <li><a href="portfolio.html"><i class="bi bi-circle-fill"></i> Portfolio</a></li>
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> Services</a></li>
+                        <li><a href="about.html"><i class="bi bi-circle-fill"></i> About</a></li>
+                        <li><a href="contact.html"><i class="bi bi-circle-fill"></i> Contact us</a></li>
+                        <li><a href="#"><i class="bi bi-circle-fill"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="bi bi-circle-fill"></i> Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-heading">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> SEO</a></li>
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> Web Designing</a></li>
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> Web Development</a></li>
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> Social Media Management</a></li>
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> Google My Business</a></li>
+                        <li><a href="services.html"><i class="bi bi-circle-fill"></i> AI Automation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-heading">Contact Us</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-telephone"></i> +92 329 7939147</li>
+                        <li><i class="bi bi-envelope"></i> info@spectraai.com</li>
+                    </ul>
+                    <div class="footer-social-icons mt-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    <div class="mt-4">
+                        <h6 class="footer-heading">We Accept</h6>
+                        <div class="logo-grid mt-2">
+                            <div class="logo-container">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/256px-Visa_Inc._logo.svg.png" alt="Visa" class="logo-item">
+                            </div>
+                            <div class="logo-container">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/256px-MasterCard_Logo.svg.png" alt="Mastercard" class="logo-item">
+                            </div>
+                            <div class="logo-container">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/256px-American_Express_logo_%282018%29.svg.png" alt="American Express" class="logo-item">
+                            </div>
+                            <div class="logo-container">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/256px-PayPal.svg.png" alt="PayPal" class="logo-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-new">
+                <p>2009-2025 © Copyrights SpectraAI Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <!-- Force Counter Animation -->
+    <script>
+        // Force counter animation on portfolio page
+        (function() {
+            function animateCounterDirect(element, target, suffix) {
+                if (!element || !target || isNaN(target)) return;
+                let start = 0;
+                const step = target / (2000 / 16);
+                const timer = setInterval(() => {
+                    start += step;
+                    if (start >= target) {
+                        element.textContent = Math.round(target).toLocaleString() + suffix;
+                        clearInterval(timer);
+                    } else {
+                        element.textContent = Math.round(start).toLocaleString() + suffix;
+                    }
+                }, 16);
+            }
+            
+            function startCounters() {
+                document.querySelectorAll('.stat-number[data-target]').forEach(counter => {
+                    const target = parseInt(counter.getAttribute('data-target'));
+                    const suffix = counter.getAttribute('data-suffix') || '+';
+                    if (target && !isNaN(target)) {
+                        counter.textContent = '0' + suffix;
+                        animateCounterDirect(counter, target, suffix);
+                    }
+                });
+            }
+            
+            // Try multiple times
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', startCounters);
+            } else {
+                startCounters();
+            }
+            setTimeout(startCounters, 100);
+            setTimeout(startCounters, 500);
+            window.addEventListener('load', startCounters);
+        })();
+    </script>
+</body>
+</html>
+
